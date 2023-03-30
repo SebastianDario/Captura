@@ -1,0 +1,250 @@
+@font-face{
+    font-family: serif;
+    src:url(../imagenes/Holyfat.ttf)
+}
+body{
+        background-image: url(../imagenes/FONDO4.jpeg);
+        background-size: 150rem;
+        background-position-x: left;
+        background-position-y: top;
+        background-repeat: no-repeat;
+    }
+.nel{
+    background-color: #ffffff;
+    padding: 0;
+}
+.nav-link{
+    text-decoration: none !important;
+    color: #036979;
+    font-family: serif !important;
+    font-size: 20px;
+    height: 60px !important;
+}
+.nav-link:hover{
+    color: #fff;
+    background-color: #036979;
+}
+.ul{
+    height: 80px !important;
+}
+
+#btn1{
+    border-radius: 50%;
+    background-color: #036979;
+    text-align: center;
+    width: 14rem;
+    height: 7rem;
+    font-family: serif;
+    color: #fff;
+    font-size: 55px;
+    margin-left: 12rem;
+}
+main{
+   
+    width: 100%;
+    height: 100%;
+    background-image: url(../Imagenes/FONDO4.jpeg) ;
+    
+background-repeat: no-repeat;
+    background-size: 100%;
+    max-height: 800px;
+}
+.form-contact {
+    width: 400px;
+    background: #00566a;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    margin-bottom: 50px;
+  }
+
+  
+  .form-contact h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    background-color: white;
+  }
+  
+  .controlss {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    background-color: white;
+  }
+  .form-contact p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-contact a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-contact a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-contact .botons {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    color: gray;
+    margin: 16px 0;
+    font-size: 16px;
+    background-color: white;
+  }
+  footer{
+
+    bottom: 0;
+    left: 0;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--dark);
+    color: #036979;
+    background-color: #ffffffd0;
+}
+
+
+
+.footer-menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.footer-container{
+    height: fit-content;
+    width: 100%;
+    padding: 3rem 6rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-content-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer-info, .menu-item-footer{
+    margin: 0.2rem 0;
+    opacity: 0.7;
+    color: #036979;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu-item-footer:hover{
+    opacity: 1;
+}
+
+.menu-title{
+    font-size: var(--medium-text-font);
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+}
+
+.social-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+}
+
+.social-link{
+    height: 100%;
+    width: 30px;
+    background-image: url(../imagenes/20673.png);
+    background-size: 70%;
+    background-position: center;
+    margin-right: 1rem;
+    background-repeat: no-repeat;
+}
+
+.social-link:hover{
+    opacity: 0.7;
+}
+
+footer .social-link:nth-of-type(2){
+    background-image: url(../imagenes/logo-minimalist-instagram.png);
+    background-size: 35px;
+}
+
+
+/*MEDIA QUERY*/
+@media (max-width: 768px){
+    
+    .footer-container{
+        padding: 2rem;
+        flex-direction: column;
+    }
+
+    .footer-content-container{
+        width: 100%;
+        padding: 2rem 0;
+        border-bottom: 1px solid #2A2A2A;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-content-container:nth-of-type(1){
+        align-items: flex-start;
+    }
+    .footer-content-container:nth-of-type(3){
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .footer-menus{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-bottom: 1px solid #2A2A2A;
+    }
+
+    .footer-menus .footer-content-container:nth-of-type(1){
+        width: 45%;
+        align-items: flex-start;
+        border-bottom: none;
+    }
+    .footer-menus .footer-content-container:nth-of-type(2){
+        width: 45%;
+        align-items: flex-start;
+        border-bottom: none;
+    }
+}
